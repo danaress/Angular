@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="banana">
+<head>
+	<title>Angular</title>
+
+	<link rel+"stylesheet" type"text/css" src="main.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body ng-controller="bananatroller">
+
+<button ng-click="click()">Click here</button>
+
+<h1>{{greeting}}</h1>
+
+	<button  ng-click="clock()">Button</button>
+	<ul ng-show="hidden">
+		<li>Name</li>
+		<li>Age</li>
+		<li>Height</li>
+	</ul>
+</body>
+</html>
